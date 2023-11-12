@@ -456,6 +456,7 @@ export default {
   },
   created() {
     console.log("hello");
+    console.log("hello1");
   },
   beforeUnmount() {
     clearInterval(this.interval);
