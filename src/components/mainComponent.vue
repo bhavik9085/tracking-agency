@@ -454,10 +454,7 @@ export default {
       self.interval = setInterval(self.newInterval, 4000);
     });
   },
-  created() {
-    console.log("hello");
-    console.log("hello1");
-  },
+  created() {},
   beforeUnmount() {
     clearInterval(this.interval);
     window.removeEventListener("load", this.onWindowLoad);
